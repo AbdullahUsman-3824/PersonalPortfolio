@@ -1,0 +1,169 @@
+{
+  "FrontEndProjects": [
+    {
+      "id": 1,
+      "title": "Simple Calculator",
+      "description": "This project is a simple yet functional web-based calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/Calculator",
+      "features": [
+        "Basic arithmetic operations",
+        "Clear and responsive UI",
+        "Error handling for invalid operations"
+      ],
+      "technologies": {
+        "Frontend": ["HTML", "CSS", "Javascript"]
+      },
+      "images": [
+        "/projectImages/calculator-img1.png",
+        "/projectImages/calculator-img2.png",
+        "/projectImages/calculator-img3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Music Player",
+      "description": "A web-based music player inspired by Spotify, featuring a sleek and modern design. Users can play, pause, and switch between tracks, with a playlist display.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/MusicPlayer",
+      "features": [
+        "Play, pause, and skip tracks",
+        "Playlist display",
+        "Responsive and intuitive UI"
+      ],
+      "technologies": {
+        "Frontend": ["HTML", "CSS", "Javascript"]
+      },
+      "images": [
+        "/projectImages/player-img1.png",
+        "/projectImages/player-img2.png",
+        "/projectImages/player-img3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ultimate Clock",
+      "description": "A web-based clock application that allows users to switch between digital and analog clock modes. It includes a light and dark mode switch for user preference, as well as an alarm clock and timer functionality.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/UltimateClock",
+      "features": [
+        "Switchable digital and analog clock",
+        "Light and dark mode toggle",
+        "Real-time display updates",
+        "Alarm clock functionality",
+        "Timer feature"
+      ],
+      "technologies": {
+        "Frontend": ["HTML", "CSS", "Javascript"]
+      },
+      "images": [
+        "/projectImages/clock-img1.png",
+        "/projectImages/clock-img2.png",
+        "/projectImages/clock-img3.png",
+        "/projectImages/clock-img4.png",
+        "/projectImages/clock-img5.png",
+        "/projectImages/clock-img6.png",
+        "/projectImages/clock-img7.png",
+        "/projectImages/clock-img8.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Web-Based Games",
+      "description": "A collection of classic web-based games, including Tic-Tac-Toe, Snake, and Rock-Paper-Scissors. Each game is designed with simple controls and engaging gameplay.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/WebGames",
+      "features": [
+        "Tic-Tac-Toe: A classic two-player game with a simple UI.",
+        "Snake: A traditional snake game with increasing difficulty.",
+        "Rock-Paper-Scissors: A fun and interactive version of the classic game."
+      ],
+      "technologies": {
+        "Frontend": ["HTML", "CSS", "Javascript"]
+      },
+      "images": [
+        "/projectImages/game-img1.png",
+        "/projectImages/game-img2.png",
+        "/projectImages/game-img3.png",
+        "/projectImages/game-img4.png",
+        "/projectImages/game-img5.png",
+        "/projectImages/game-img6.png",
+        "/projectImages/game-img7.png"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Random Password Generator",
+      "description": "A web-based tool for generating random passwords. Users can specify the length and difficulty of the password.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/RandomPasswardGenerator",
+      "features": [
+        "Customizable password length",
+        "Changeable difficulty level"
+      ],
+      "technologies": {
+        "Frontend": ["HTML", "CSS", "Javascript"]
+      },
+      "images": [
+        "/projectImages/generator-img1.png",
+        "/projectImages/generator-img2.png",
+        "/projectImages/generator-img3.png",
+        "/projectImages/generator-img4.png"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "To-Do List",
+      "description": "A simple to-do list application that allows users to add, remove, and edit tasks. The list is saved in the browser's local storage, so tasks persist even after the page is refreshed.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/ToDoList",
+      "features": [
+        "Add and remove tasks",
+        "Edit tasks",
+        "Persist tasks using local storage"
+      ],
+      "technologies": {
+        "Frontend": ["HTML", "CSS", "Javascript"]
+      },
+      "images": [
+        "/projectImages/todo-img1.png",
+        "/projectImages/todo-img2.png",
+        "/projectImages/todo-img3.png"
+      ]
+    }
+  ],
+  "BackEndProjects": [
+    {
+      "id": 1,
+      "title": "PDF Merger Tool",
+      "description": "PDF Merger Tool is a Node.js-based web application that allows users to merge multiple PDF files into one. It provides an intuitive interface for uploading PDFs, combining them, and downloading the merged document.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/PdfMergerTool",
+      "features": [
+        "Upload and merge multiple PDF files.",
+        "Download the merged PDF document.",
+        "User-friendly interface for easy file management."
+      ],
+      "technologies": {
+        "Backend": ["Node.js", "Express.js"],
+        "Frontend": ["HTML", "CSS", "Javascript", "Bootstrap"]
+      },
+      "images": [
+        "/projectImages/merger-img1.png",
+        "/projectImages/merger-img2.png",
+        "/projectImages/merger-img3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Wanderust",
+      "description": "WanderLust is a web application designed to help users discover and manage vacation rental listings. It provides features for users to browse listings, leave reviews, and manage their own property listings.",
+      "gitHub_URL": "https://github.com/AbdullahUsman-3824/WanderLust",
+      "features": [
+        "User Authentication",
+        "Listing Management",
+        "Review System",
+        "Location Services",
+        "Responsive Design"
+      ],
+      "technologies": {
+        "Backend": ["Node.js", "Express.js", "MongoDB with Mongoose"],
+        "Frontend": ["EJS", "Bootstrap", "Mapbox"],
+        "Authentication": ["Passport.js"]
+      }
+    }
+  ]
+}

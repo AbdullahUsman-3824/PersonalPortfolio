@@ -1,0 +1,85 @@
+.project-card {
+  position: relative;
+  margin: 1rem auto;
+  padding: 0 !important;
+  border-radius: 1.5rem !important;
+  max-width: 400px !important;
+  overflow: visible;
+  background-color: var(--dark2) !important;
+  display: flex;
+  flex-direction: column;
+  & * {
+    color: #fff !important;
+  }
+}
+
+.card-img {
+  height: 18rem;
+  object-fit: contain !important;
+}
+
+.card-content {
+  font-weight: 400 !important;
+  text-align: center;
+}
+
+.card-actions {
+  margin-top: auto;
+}
+
+.icon-button {
+  color: #fff;
+  transition: 0.3s ease;
+  &.MuiIconButton-root:hover {
+    transform: scale(1.2);
+  }
+}
+
+.expand-more {
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out !important;
+  margin-left: auto !important;
+
+  &[aria-expanded="true"] {
+    transform: rotate(0deg);
+  }
+
+  &[aria-expanded="false"] {
+    transform: rotate(180deg);
+  }
+}
+
+.card-collapse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 22rem;
+  overflow-y: hidden;
+  z-index: 2;
+  background-color: var(--dark3);
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  opacity: 0.9;
+}
+
+.feature-list,
+.technology-list {
+  padding: 0 !important;
+}
+
+.list-item {
+  padding: 4px 0 !important;
+  margin-bottom: 4px !important;
+}
+
+.list-icon {
+  min-width: 24px !important;
+}
+
+.bullet-icon {
+  font-size: 0.5rem !important;
+}
+
+.tech-item {
+  font-style: italic !important;
+}

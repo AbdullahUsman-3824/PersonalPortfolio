@@ -1,0 +1,118 @@
+.banner {
+  margin-top: 0;
+  padding: 200px 0 150px 0;
+  background-image: url("../assets/img/banner-bg.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.banner::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+.tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(170, 54, 124, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.typed-cursor {
+  color: rgb(180, 91, 202) !important;
+}
+.banner h1 span {
+  color: var(--purple);
+}
+.banner p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid transparent;
+  border-radius: 50px;
+  padding: 1rem;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  line-height: 1;
+}
+.banner button:hover svg {
+  animation: download-animation 1s infinite;
+}
+
+@keyframes download-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.img-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.blob {
+  width: 380px;
+  aspect-ratio: 1/1;
+  margin: 20px;
+  box-shadow: 5px 5px 5px 5px var(--purple);
+  overflow: hidden;
+  animation: animate 5s ease-in-out infinite;
+  transition: transform 0.3s ease-in-out;
+}
+.blob img {
+  width: 100%;
+  height: 100%;
+}
+.blob:hover {
+  transform: scale(1.05);
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
