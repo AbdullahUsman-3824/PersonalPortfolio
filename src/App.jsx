@@ -3,9 +3,9 @@ import Banner from "./components/Banner.jsx";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
-
+import Footer from "./components/Footer.jsx";
+import "animate.css";
 import "./App.css";
-
 function App() {
   return (
     <>
@@ -14,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }

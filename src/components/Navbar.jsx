@@ -1,14 +1,19 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Socials from "./Socials";
+import logo from "../assets/img/logo.png";
 import "../styles/Navbar.css";
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 export default function NavBar() {
-  const [activeLink, setActiveLink] = useState("home");
   const [expanded, setExpanded] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeLink, setActiveLink] = useState("home");
+
+  const updateActiveLink = (link) => {
+    setActiveLink(link);
+  };
 
   useEffect(() => {
     const onScroll = () => {
@@ -23,10 +28,6 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const updateActiveLink = (link) => {
-    setActiveLink(link);
-  };
-
   return (
     <Router>
       <Navbar
@@ -36,7 +37,9 @@ export default function NavBar() {
         }`}
       >
         <Container>
-          <Navbar.Brand href="#home">{"< />"}</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img src={logo} alt="logo" id="logo" />
+          </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setExpanded(!expanded)}
@@ -70,7 +73,6 @@ export default function NavBar() {
             </Nav>
             <span className="navbar-text">
               <Socials />
-
               <a href="#connect">
                 <button className="connect-btn">Let’s Connect</button>
               </a>

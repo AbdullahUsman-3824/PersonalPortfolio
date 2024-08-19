@@ -1,9 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
-import ContactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/contact-img.svg";
 import { useForm } from "react-hook-form";
 import { Alert } from "@mui/material";
 import { useState } from "react";
 import "../styles/Contact.css";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 export default function () {
   const [status, setStatus] = useState({});
@@ -23,7 +25,6 @@ export default function () {
       },
       body: JSON.stringify(formDetails),
     });
-    reset();
     let result = await response.json();
     if (result.code == 200) {
       setStatus({ success: true, message: "Message sent successfully" });
@@ -33,6 +34,7 @@ export default function () {
         message: "Something went wrong, please try again later.",
       });
     }
+    reset();
   };
 
   return (
@@ -40,7 +42,19 @@ export default function () {
       <Container>
         <Row>
           <Col md={6}>
-            <img src={ContactImg} alt="Contact Us" />
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <img
+                  className={
+                    isVisible
+                      ? "animate__animated animate__zoomIn"
+                      : "animate__animated animate__zoomOut"
+                  }
+                  src={contactImg}
+                  alt="Contact Us"
+                />
+              )}
+            </TrackVisibility>
           </Col>
           <Col md={6}>
             <h2>Get in touch</h2>

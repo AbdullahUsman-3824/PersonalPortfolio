@@ -3,8 +3,9 @@ import headerImg from "../assets/img/me.jpg";
 import { ArrowDownCircle } from "react-bootstrap-icons";
 import { ReactTyped } from "react-typed";
 import "../styles/Banner.css";
+import TrackVisibility from "react-on-screen";
 
-export default function HeaderSection() {
+export default function () {
   return (
     <section className="banner" id="home">
       <Container>
@@ -24,19 +25,34 @@ export default function HeaderSection() {
                 />
               </span>
             </h1>
-            <p>
-              My name is Muhammad Abdullah Usman. I'm a dedicated Full Stack
-              Developer specializing in the MERN stack. With a strong focus on
-              React, I build dynamic and responsive web applications from front
-              to back. I'm passionate about creating seamless user experiences
-              and continuously expanding my skills. Let's connect and create
-              impactful solutions together!
-            </p>
-            <a href="/myCV.pdf" download="myCV.pdf">
-              <button>
-                Download My Resume <ArrowDownCircle size={25} />
-              </button>
-            </a>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <>
+                  <div
+                    className={
+                      isVisible
+                        ? "animate__animated animate__fadeIn"
+                        : "animate__animated animate__fadeOut"
+                    }
+                  >
+                    <p>
+                      My name is Muhammad Abdullah Usman. I'm a dedicated Full
+                      Stack Developer specializing in the MERN stack. With a
+                      strong focus on React, I build dynamic and responsive web
+                      applications from front to back. I'm passionate about
+                      creating seamless user experiences and continuously
+                      expanding my skills. Let's connect and create impactful
+                      solutions together!
+                    </p>
+                    <a href="/myCV.pdf" download="myCV.pdf">
+                      <button>
+                        Download My Resume <ArrowDownCircle size={25} />
+                      </button>
+                    </a>
+                  </div>
+                </>
+              )}
+            </TrackVisibility>
           </Col>
           <Col xs={12} md={12} lg={5} className="img-container">
             <div className="blob">
