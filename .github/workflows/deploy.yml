@@ -20,7 +20,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        uses: npm/cli-action@v2  # Updated to npm/cli-action v2
+        run: npm install  # Run npm install directly
 
       - name: Build project
         run: npm run build
