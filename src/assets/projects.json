@@ -14,9 +14,9 @@
         "Frontend": ["HTML", "CSS", "Javascript"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/calculator-img1.png",
-        "/PersonalPorfolio/ProjectImages/calculator-img2.png",
-        "/PersonalPorfolio/ProjectImages/calculator-img3.png"
+        "/PersonalPorfolio/projectImages/calculator-img1.png",
+        "/PersonalPorfolio/projectImages/calculator-img2.png",
+        "/PersonalPorfolio/projectImages/calculator-img3.png"
       ]
     },
     {
@@ -33,9 +33,9 @@
         "Frontend": ["HTML", "CSS", "Javascript"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/player-img1.png",
-        "/PersonalPorfolio/ProjectImages/player-img2.png",
-        "/PersonalPorfolio/ProjectImages/player-img3.png"
+        "/PersonalPorfolio/projectImages/player-img1.png",
+        "/PersonalPorfolio/projectImages/player-img2.png",
+        "/PersonalPorfolio/projectImages/player-img3.png"
       ]
     },
     {
@@ -54,14 +54,14 @@
         "Frontend": ["HTML", "CSS", "Javascript"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/clock-img1.png",
-        "/PersonalPorfolio/ProjectImages/clock-img2.png",
-        "/PersonalPorfolio/ProjectImages/clock-img3.png",
-        "/PersonalPorfolio/ProjectImages/clock-img4.png",
-        "/PersonalPorfolio/ProjectImages/clock-img5.png",
-        "/PersonalPorfolio/ProjectImages/clock-img6.png",
-        "/PersonalPorfolio/ProjectImages/clock-img7.png",
-        "/PersonalPorfolio/ProjectImages/clock-img8.png"
+        "/PersonalPorfolio/projectImages/clock-img1.png",
+        "/PersonalPorfolio/projectImages/clock-img2.png",
+        "/PersonalPorfolio/projectImages/clock-img3.png",
+        "/PersonalPorfolio/projectImages/clock-img4.png",
+        "/PersonalPorfolio/projectImages/clock-img5.png",
+        "/PersonalPorfolio/projectImages/clock-img6.png",
+        "/PersonalPorfolio/projectImages/clock-img7.png",
+        "/PersonalPorfolio/projectImages/clock-img8.png"
       ]
     },
     {
@@ -78,13 +78,13 @@
         "Frontend": ["HTML", "CSS", "Javascript"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/game-img1.png",
-        "/PersonalPorfolio/ProjectImages/game-img2.png",
-        "/PersonalPorfolio/ProjectImages/game-img3.png",
-        "/PersonalPorfolio/ProjectImages/game-img4.png",
-        "/PersonalPorfolio/ProjectImages/game-img5.png",
-        "/PersonalPorfolio/ProjectImages/game-img6.png",
-        "/PersonalPorfolio/ProjectImages/game-img7.png"
+        "/PersonalPorfolio/projectImages/game-img1.png",
+        "/PersonalPorfolio/projectImages/game-img2.png",
+        "/PersonalPorfolio/projectImages/game-img3.png",
+        "/PersonalPorfolio/projectImages/game-img4.png",
+        "/PersonalPorfolio/projectImages/game-img5.png",
+        "/PersonalPorfolio/projectImages/game-img6.png",
+        "/PersonalPorfolio/projectImages/game-img7.png"
       ]
     },
     {
@@ -100,10 +100,10 @@
         "Frontend": ["HTML", "CSS", "Javascript"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/generator-img1.png",
-        "/PersonalPorfolio/ProjectImages/generator-img2.png",
-        "/PersonalPorfolio/ProjectImages/generator-img3.png",
-        "/PersonalPorfolio/ProjectImages/generator-img4.png"
+        "/PersonalPorfolio/projectImages/generator-img1.png",
+        "/PersonalPorfolio/projectImages/generator-img2.png",
+        "/PersonalPorfolio/projectImages/generator-img3.png",
+        "/PersonalPorfolio/projectImages/generator-img4.png"
       ]
     },
     {
@@ -120,9 +120,9 @@
         "Frontend": ["HTML", "CSS", "Javascript"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/todo-img1.png",
-        "/PersonalPorfolio/ProjectImages/todo-img2.png",
-        "/PersonalPorfolio/ProjectImages/todo-img3.png"
+        "/PersonalPorfolio/projectImages/todo-img1.png",
+        "/PersonalPorfolio/projectImages/todo-img2.png",
+        "/PersonalPorfolio/projectImages/todo-img3.png"
       ]
     }
   ],
@@ -142,9 +142,9 @@
         "Frontend": ["HTML", "CSS", "Javascript", "Bootstrap"]
       },
       "images": [
-        "/PersonalPorfolio/ProjectImages/merger-img1.png",
-        "/PersonalPorfolio/ProjectImages/merger-img2.png",
-        "/PersonalPorfolio/ProjectImages/merger-img3.png"
+        "/PersonalPorfolio/projectImages/merger-img1.png",
+        "/PersonalPorfolio/projectImages/merger-img2.png",
+        "/PersonalPorfolio/projectImages/merger-img3.png"
       ]
     },
     {
