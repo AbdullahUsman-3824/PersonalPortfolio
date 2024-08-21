@@ -44,7 +44,7 @@ export default function () {
                       expanding my skills. Let's connect and create impactful
                       solutions together!
                     </p>
-                    <a href="/myCV.pdf" download="myCV.pdf">
+                    <a href="/PersonalPortfolio/myCV.pdf" download="myCV.pdf">
                       <button>
                         Download My Resume <ArrowDownCircle size={25} />
                       </button>
