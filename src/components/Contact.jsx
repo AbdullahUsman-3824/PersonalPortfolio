@@ -6,6 +6,12 @@ import { useState } from "react";
 import "../styles/Contact.css";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
+
+// Extract environment variables
+const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export default function () {
   const [status, setStatus] = useState({});
@@ -18,17 +24,17 @@ export default function () {
   } = useForm();
 
   const onSubmit = async (formDetails) => {
-    let response = await fetch("http://localhost:3000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    let result = await response.json();
-    if (result.code == 200) {
+    const newEmail = {
+      from_name: formDetails.firstName + " " + formDetails.lastName,
+      phone: formDetails.phone,
+      email: formDetails.email,
+      message: formDetails.message,
+    };
+    try {
+      await emailjs.send(serviceID, templateID, newEmail, publicKey);
       setStatus({ success: true, message: "Message sent successfully" });
-    } else {
+    } catch (err) {
+      console.log("ERROR", err);
       setStatus({
         success: false,
         message: "Something went wrong, please try again later.",
