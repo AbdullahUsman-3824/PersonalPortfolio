@@ -81,7 +81,6 @@ export default function ({ project }) {
         </Tooltip>
         <Tooltip title="Show Detail" arrow placement="top">
           <IconButton
-            expand={expanded}
             onClick={handleExpandClick}
             aria-expanded={expanded}
             className="expand-more"

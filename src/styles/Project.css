@@ -12,7 +12,8 @@
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 50%;
+  min-width: 50%;
+  max-width: 70%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -28,7 +29,7 @@
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
-  padding: 17px 0;
+  padding: 17px 10px;
   color: #fff;
   width: 100%;
   font-size: 17px;

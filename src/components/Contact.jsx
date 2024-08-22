@@ -47,14 +47,12 @@ export default function () {
     <section className="contact" id="connect">
       <Container>
         <Row>
-          <Col md={6}>
+          <Col md={6} className="contactLeft">
             <TrackVisibility>
               {({ isVisible }) => (
                 <img
                   className={
-                    isVisible
-                      ? "animate__animated animate__zoomIn"
-                      : "animate__animated animate__zoomOut"
+                    isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                   src={contactImg}
                   alt="Contact Us"
@@ -62,7 +60,7 @@ export default function () {
               )}
             </TrackVisibility>
           </Col>
-          <Col md={6}>
+          <Col md={6} className="contactRight">
             <h2>Get in touch</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
               <Row>

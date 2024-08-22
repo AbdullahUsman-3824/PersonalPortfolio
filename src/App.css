@@ -90,12 +90,21 @@ h2 {
   font-size: 4rem;
   font-weight: 700;
 }
+#logo {
+  width: 5rem;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+  #logo {
+    width: 3rem;
+  }
+}
 :root {
   --purple: #bd23e8;
   --dark1: #121212;
   --dark2: #222;
   --dark3: #555;
 }
-/* .animate__animated.animate__fadeIn {
-  --animate-duration: 2s;
-} */
