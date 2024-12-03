@@ -5,6 +5,7 @@
       "title": "MeChat",
       "description": "MeChat is a real-time chat application built using React, Redux, and Firebase. It allows users to register, log in, and chat with each other seamlessly in real time.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/ChatApp",
+      "liveSite_URL":"https://abdullahusman-3824.github.io/ChatApp/",
       "features": [
         "User authentication with Firebase",
         "Real-time messaging",
@@ -27,6 +28,7 @@
       "title": "Simple Calculator",
       "description": "This project is a simple yet functional web-based calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/Calculator",
+      "liveSite_URL": "https://abdullahusman-3824.github.io/FrontEndGalaxy/Calculator/",
       "features": [
         "Basic arithmetic operations",
         "Clear and responsive UI",
@@ -46,6 +48,7 @@
       "title": "Music Player",
       "description": "A web-based music player inspired by Spotify, featuring a sleek and modern design. Users can play, pause, and switch between tracks, with a playlist display.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/MusicPlayer",
+      "liveSite_URL":"https://abdullahusman-3824.github.io/FrontEndGalaxy/MusicPlayer/",
       "features": [
         "Play, pause, and skip tracks",
         "Playlist display",
@@ -65,6 +68,7 @@
       "title": "Ultimate Clock",
       "description": "A web-based clock application that allows users to switch between digital and analog clock modes. It includes a light and dark mode switch for user preference, as well as an alarm clock and timer functionality.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/UltimateClock",
+      "liveSite_URL":"https://abdullahusman-3824.github.io/FrontEndGalaxy/UltimateClock/",
       "features": [
         "Switchable digital and analog clock",
         "Light and dark mode toggle",
@@ -91,6 +95,7 @@
       "title": "Web-Based Games",
       "description": "A collection of classic web-based games, including Tic-Tac-Toe, Snake, and Rock-Paper-Scissors. Each game is designed with simple controls and engaging gameplay.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/WebGames",
+      "liveSite_URL":"https://abdullahusman-3824.github.io/FrontEndGalaxy/WebGames/",
       "features": [
         "Tic-Tac-Toe: A classic two-player game with a simple UI.",
         "Snake: A traditional snake game with increasing difficulty.",
@@ -114,6 +119,7 @@
       "title": "Random Password Generator",
       "description": "A web-based tool for generating random passwords. Users can specify the length and difficulty of the password.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/RandomPasswardGenerator",
+      "liveSite_URL":"https://abdullahusman-3824.github.io/FrontEndGalaxy/RandomPasswardGenerator",
       "features": [
         "Customizable password length",
         "Changeable difficulty level"
@@ -133,6 +139,7 @@
       "title": "To-Do List",
       "description": "A simple to-do list application that allows users to add, remove, and edit tasks. The list is saved in the browser's local storage, so tasks persist even after the page is refreshed.",
       "gitHub_URL": "https://github.com/AbdullahUsman-3824/FrontEndGalaxy/tree/main/ToDoList",
+      "liveSite_URL":"https://abdullahusman-3824.github.io/FrontEndGalaxy/ToDoList/",
       "features": [
         "Add and remove tasks",
         "Edit tasks",

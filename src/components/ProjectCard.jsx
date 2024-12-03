@@ -21,6 +21,7 @@ import {
   GitHub as GitHubIcon,
   ExpandMore as ExpandMoreIcon,
   FiberManualRecord as BulletIcon,
+  Language as WebIcon
 } from "@mui/icons-material";
 
 const CollapseContent = styled(CardContent)(({ theme }) => ({
@@ -79,6 +80,16 @@ export default function ({ project }) {
             <GitHubIcon />
           </IconButton>
         </Tooltip>
+        {project.liveSite_URL && <Tooltip title="Live Site" arrow placement="top">
+          <IconButton
+            aria-label="Live Site"
+            href={project.liveSite_URL}
+            target="_blank"
+            className="icon-button"
+          >
+            <WebIcon />
+          </IconButton>
+        </Tooltip>}
         <Tooltip title="Show Detail" arrow placement="top">
           <IconButton
             onClick={handleExpandClick}
